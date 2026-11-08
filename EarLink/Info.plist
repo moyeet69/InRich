@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_earlink-talk._tcp</string>
+		<string>_earlink-talk._udp</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>EarLink connects directly to nearby iPhones so you can talk earbud-to-earbud.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>EarLink uses Bluetooth to connect directly to nearby iPhones without a call or internet.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
+</dict>
+</plist>
